@@ -1,6 +1,4 @@
-*,
-*::before,
-*::after {
+*, *::before, *::after {
   box-sizing: border-box;
 }
 
@@ -22,20 +20,19 @@
   font-weight: 500;
 }
 
-html,
-body {
+html, body {
   margin: 0;
   color: #111111;
   font-family: "Roboto", sans-serif;
 }
 
 body {
-  background: #fdfdfd;
+  background: #FDFDFD;
 }
 
 .header {
   border-radius: 18px;
-  box-shadow: 0 7px 20px 0 #0000002e;
+  box-shadow: 0 7px 20px 0 #0000002E;
   backdrop-filter: blur(10px);
   background: #ffffff;
   left: 20px;
@@ -61,7 +58,7 @@ body {
   width: 42px;
   height: 42px;
   border-radius: 10px;
-  background: #ffcc00;
+  background: #FFCC00;
   display: grid;
   place-items: center;
   font-weight: bold;
@@ -100,9 +97,7 @@ body {
   font-weight: bold;
   cursor: pointer;
   font-family: inherit;
-  transition:
-    transform 0.08s ease,
-    opacity 0.12s ease;
+  transition: transform 0.08s ease, opacity 0.12s ease;
   background: #ffcc00;
   color: #111111;
   text-align: center;
@@ -110,12 +105,12 @@ body {
 }
 
 .button:hover {
-  background-color: #e5bc19;
+  background-color: #E5BC19;
 }
 
 .button:disabled {
   cursor: not-allowed;
-  background-color: #fade6e;
+  background-color: #FADE6E;
   color: #787878;
   transform: none;
 }
